@@ -1,6 +1,6 @@
 /* nth-child(1) = the first td in each tr */
 td:nth-child(1) {
-    width: 100px;
+    width: 300px;
     /*: #ddd;*/
     }
   
