@@ -8,10 +8,8 @@
 </head>
 
 <header>
-    <div class="container">
-        <div class="title">
-            <h1>Evening Primrose Coaching</h1>
-        </div>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
         <nav class="menu">
             <a href="/index.html"><i class="Home Page"></i>Home Page</a>
             <a href="/aanbod.html"><i class="Aanbod"></i>Aanbod</a>
@@ -25,6 +23,8 @@
 
 <body class="body-homePage">
 
+    <h1>Evening Primrose Coaching</h1>
+
     <p>Leidinggeven is moeilijk, zeker voor mensen die uit hun expertise gegroeid zijn naar een rol waarbij ze ook de verantwoordelijkheid voor een team moeten dragen. Enerzijds kunnen je medewerkers zich meer dan jou focussen op nieuwe trends terwijl jij tijd moet spenderen aan het team leiden. Anderzijds vergt een team aansturen ook expertise, maar daar zijn de meesten onder ons niet toe opgeleid. </p>
     <p>Bovendien sta je alleen in je team. Je kan niet alle informatie met je medewerkers delen en zij delen ook niet alles met jou. Maar waar vind jij dan een sparring partner? Nieuwe ideeën bedenken, een tweede mening over mogelijke oplossingen, … bij wie kan je daarvoor terecht?</p>
     <p>En dan zijn er nog de valkuilen van het leidinggeven: taken van je medewerkers overnemen die zij niet opgelost krijgen maar waar jij wel de meester in bent. Of nog: partij kiezen in het spanningsveld tussen jouw manager / raad van bestuur enerzijds en anderzijds je team. Ook steeds diversere teams (verschillende generaties, gender, afkomst, cultuur enz.) maken het er allemaal niet eenvoudiger op.</p>
@@ -32,8 +32,26 @@
 
 
     <!--
-    
+    <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
     -->
+
+
+    <!--
+<nav class="navigation">
+    <a href="#" class="navs active" onclick="loadExternalHTML('home'); return false;" data-page="home">HOME</a>
+    <a href="#" class="navs" onclick="loadExternalHTML('html'); return false;" data-page="html">HTML</a>
+    <a href="#" class="navs" onclick="loadExternalHTML('css'); return false;" data-page="css">CSS</a>
+    <a href="#" class="navs" onclick="loadExternalHTML('tools'); return false;" data-page="tools">TOOLS</a>
+    <a href="#" class="navs" onclick="loadExternalHTML('about'); return false;" data-page="about">ABOUT</a>
+</nav>
+        -->
+
+    <br>
+    <footer>Made by Alla Hrushyna
+    </footer>
 </body>
 
 </html>
