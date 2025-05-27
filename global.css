@@ -169,8 +169,8 @@
   left: 0;
 	padding-top: 270px;
   transition: 0.4s;
-	/*z-index: 1;
-  overflow-x: hidden;
+  z-index: 9999;
+	/*overflow-x: hidden;
 	grid-area: 1/1/2/2;*/
 	a {
 		font-family: Quicksand Variable;
