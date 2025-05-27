@@ -6,7 +6,16 @@
 
 .body-CV {
     font-size: 18px;
-    margin-right: 300px;
+    margin-right: 100px;
+    padding: 20px;
+    border-style: groove;
 }
 
 /*background: rgb(221, 220, 220)*/
+
+
+
+.body-CV hr {
+      border: 1px solid #486153;
+  margin: 0;
+}
