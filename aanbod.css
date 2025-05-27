@@ -1,0 +1,75 @@
+
+@import url("./global.css");
+
+/*AANBOD*/
+
+.body-aanbod {
+    font-size: 18px;
+    margin-right: 400px;
+	}
+
+.body-aanbod h1 {
+	font-size: 5ch;
+	margin: 15px 20px;
+}
+
+.body-aanbod h2 {
+	font-size: 3.5ch;
+	margin: 20px;
+  margin-right: 400px;
+  text-shadow: 2px 2px 5px #ffffff, 7px 7px 10px rgb(29, 29, 29);
+}
+
+.body-aanbod p {
+	margin: 10px 5px;
+}
+
+/* nth-child(1) = the first td in each tr */
+
+td:nth-child(1) {
+    width: 800px;
+    /*: #ddd;*/
+    }
+
+/* the second */
+td:nth-child(2) {
+  width: 1400px;
+  /*background: #ccc;*/}
+
+.table {
+  font-size: 17px;
+}
+
+table, th, td {
+	border: 2px solid white;
+	border-collapse: collapse;	}
+
+dd {
+	margin: 5px;
+	padding: 0px;}
+
+ul {
+	margin: 5px 10px;}
+
+.body-aanbod dt {
+	margin: 10px 10px 10px 20px;}
+
+.table dl {
+	margin: 5px;}
+
+.table tr{
+	background: rgb(221, 220, 220)/*rgba(250, 250, 237, 0.795)*/;
+}
+
+
+
+
+
+/**RESPONSIVE LAYOUTS**/
+
+
+/* alles wat hierin komt is voor klein scherm */
+@media (max-width: 750px) {
+
+
+}
