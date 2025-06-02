@@ -32,12 +32,25 @@
     src: url(Fonts/Quicksand-VariableFont_wght.ttf);}
 
 
+/* voor ALLE pagina's*/
+
+body {
+  font-size: 22px;
+  font-family: Quicksand Variable;
+	margin: 285px 100px 20px 440px;
+	background: #f7f7f7; /*#fcfbe670*/
+	overflow-x: hidden;}
+
+h3 {
+	font-size: 30px;
+	margin: 15px;}
+
+
 /*NAVBAR TOP*/
 
 * {box-sizing: border-box;}
 
 #navbar {
-  overflow: hidden;
   background-color: #046b45;
   padding: 50px 10px;
   margin-left: -410px;
@@ -47,7 +60,8 @@
   top: 0;
   z-index: 99;
 }
-/*width: fit-content;*/
+/*overflow: hidden;
+width: fit-content;*/
 
 #navbar {
   font-size: 35px;
@@ -283,21 +297,6 @@ footer {
 .footer-icons img:hover {
   transform: scale(1.15);
 }
-
-
-/* voor ALLE pagina's*/
-
-body {
-  font-size: 22px;
-  font-family: Quicksand Variable;
-	margin: 285px 100px 20px 440px;
-	background: #f7f7f7; /*#fcfbe670*/
-	/*overflow: hidden;*/}
-
-h3 {
-	font-size: 30px;
-	margin: 15px;}
-
 
 
   
