@@ -91,19 +91,22 @@ width: fit-content;*/
   text-shadow: 2px 2px 5px rgb(2, 95, 56), 7px 7px 10px rgb(26, 26, 26);
 }
 
-.navbar-logo-text {
+/*.navbar-logo-text {
   display: flex;
   flex-direction: column;
 }
-
+  
 .navbar-logo-text h4 {
   font-size: 1.5ch;
   margin: 0;
   margin-top: 30px;
   margin-left: 40px;
   transition: 0.4s;
-  /*direction: rtl;*/
+  
 }
+*/
+/*direction: rtl;*/
+
 
 #navbar img {
 	width: 100px;
