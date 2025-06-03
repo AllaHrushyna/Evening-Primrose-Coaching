@@ -37,14 +37,37 @@
 body {
   font-size: 22px;
   font-family: Quicksand Variable;
-	margin: 285px 100px 20px 440px;
+	margin: 285px 200px 20px 440px;
 	background: #f7f7f7; /*#fcfbe670*/
 	overflow-x: hidden;}
 
-h3 {
-	font-size: 30px;
-	margin: 15px;}
+main {
+  background: rgb(238, 236, 236);
+  padding: 25px;
+  border-style: groove; /*groove*/
+  border-color: white;
+  border-radius: 10px;
+}
 
+h2 {
+  font-size: 3.5ch;
+	margin: 15px 20px;
+	text-shadow: 2px 2px 5px #ffffff, 7px 7px 10px rgb(29, 29, 29);
+}
+
+h3 {
+  font-size: 2.5ch;
+	margin: 5px;
+  margin-top: 20px;
+}
+
+/*REFERENTIES PAGINA'S HIDDEN*/
+
+/*
+#referenties {
+  display: none;
+}
+*/
 
 /*NAVBAR TOP*/
 

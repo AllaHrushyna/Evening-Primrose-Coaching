@@ -3,7 +3,14 @@
 
 /*DETAIL*/
 
-.body-detail {
+.main-detail {
     font-size: 18px;
-    margin-right: 200px;
+}
+
+.main-detail ol {
+    margin: 0;
+}
+
+.main-detail p {
+    margin: 15px 0px 5px 0px;
 }

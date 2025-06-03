@@ -4,23 +4,10 @@
 /*AANBOD*/
 
 .body-aanbod {
-    font-size: 18px;
-    margin-right: 400px;
-	}
-
-.body-aanbod h1 {
-	font-size: 5ch;
-	margin: 15px 20px;
+    font-size: 19px;
 }
 
-.body-aanbod h2 {
-	font-size: 3.5ch;
-	margin: 20px;
-  margin-right: 400px;
-  text-shadow: 2px 2px 5px #ffffff, 7px 7px 10px rgb(29, 29, 29);
-}
-
-.body-aanbod p {
+.main-aanbod p {
 	margin: 10px 5px;
 }
 
@@ -51,7 +38,7 @@ dd {
 ul {
 	margin: 5px 10px;}
 
-.body-aanbod dt {
+.main-aanbod dt {
 	margin: 10px 10px 10px 20px;}
 
 .table dl {
