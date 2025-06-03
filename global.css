@@ -80,16 +80,15 @@ width: fit-content;*/
   color: rgb(250, 238, 68);
   text-align: center;
   padding: 12px;
-  padding-top: 30px;
-  padding-bottom: 0;
+  padding-top: 20px;
   margin: 20px;
-  margin-bottom: 0;
   text-decoration: none;
   transition: 0.4s;
   line-height: 25px;
-  border-radius: 4px;
   text-shadow: 2px 2px 5px rgb(2, 95, 56), 7px 7px 10px rgb(26, 26, 26);
 }
+/*border-radius: 4px;*/
+
 
 /*.navbar-logo-text {
   display: flex;
@@ -117,7 +116,7 @@ width: fit-content;*/
 #navbar-taal-right {
   position: absolute;
 	right: 30px;
-  bottom: 30px;
+  bottom: 15px;
   transition: 0.4s;
   /*float: right;*/
 }
