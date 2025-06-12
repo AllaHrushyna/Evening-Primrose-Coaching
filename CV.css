@@ -6,16 +6,39 @@
 
 .body-CV {
     font-size: 18px;
-    
     /*padding: 20px;
     border-style: groove;*/
 }
 
 /*background: rgb(221, 220, 220)*/
 
-
-
 .body-CV hr {
     border: 1px solid #486153;
     margin: 0;
+}
+
+
+.wrapper-CV {
+    display: flex;
+    flex-direction: row;
+    column-gap: 200px;
+}
+
+.wrapper-CV img {
+    width: 200px;
+    height: 100%;
+    border: 1px solid #c4c3c3;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.wrapper-text-CV h3{
+    font-size: 4ch;
+}
+
+.wrapper-text-CV p{
+    font-size: 2.3ch;
+    width: 700px;
+    line-height: 40px;
 }

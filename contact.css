@@ -8,3 +8,15 @@
 footer {
     margin-top: 1000px;
 }
+
+.main-contact a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.main-contact a:hover {
+  color: #057742;
+  text-decoration: underline;
+  
+}

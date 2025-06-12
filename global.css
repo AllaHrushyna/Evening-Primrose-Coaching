@@ -52,7 +52,7 @@ main {
 h2 {
   font-size: 3.5ch;
 	margin: 15px 20px;
-	text-shadow: 2px 2px 5px #ffffff, 7px 7px 10px rgb(29, 29, 29);
+	text-shadow: 2px 2px 5px #ffffff, 5px 5px 7px rgb(29, 29, 29);
 }
 
 h3 {
@@ -322,6 +322,7 @@ footer {
 
 .footer-icons img:hover {
   transform: scale(1.15);
+  /*box-shadow: 5px 5px 15px rgb(19, 17, 17);*/
 }
 
 
