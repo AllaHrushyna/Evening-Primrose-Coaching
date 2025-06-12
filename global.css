@@ -37,7 +37,6 @@
 body {
   font-size: 22px;
   font-family: Quicksand Variable;
-	margin: 285px 200px 20px 440px;
 	background: #f7f7f7; /*#fcfbe670*/
 	overflow-x: hidden;}
 
@@ -47,6 +46,7 @@ main {
   border-style: groove; /*groove*/
   border-color: white;
   border-radius: 10px;
+  margin: 285px 200px 20px 440px;
 }
 
 h2 {
@@ -76,7 +76,7 @@ h3 {
 #navbar {
   background-color: #046b45;
   padding: 50px 10px;
-  margin-left: -410px;
+  margin-left: -10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -111,24 +111,6 @@ width: fit-content;*/
   text-shadow: 2px 2px 5px rgb(2, 95, 56), 7px 7px 10px rgb(26, 26, 26);
 }
 /*border-radius: 4px;*/
-
-
-/*.navbar-logo-text {
-  display: flex;
-  flex-direction: column;
-}
-  
-.navbar-logo-text h4 {
-  font-size: 1.5ch;
-  margin: 0;
-  margin-top: 30px;
-  margin-left: 40px;
-  transition: 0.4s;
-  
-}
-*/
-/*direction: rtl;*/
-
 
 #navbar img {
 	width: 100px;
@@ -262,8 +244,7 @@ footer {
   font-size: 17px;
   text-align: end;
   margin-top: 300px;
-  margin-left: -410px;
-  margin-right: -100px;
+  margin-left: -10px;
   width: 100%;
   clear: both;
 }	
