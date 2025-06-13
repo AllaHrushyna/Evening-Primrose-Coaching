@@ -4,19 +4,32 @@
 
 /*CV*/
 
-.body-CV {
+.main-CV {
     font-size: 18px;
     /*padding: 20px;
     border-style: groove;*/
 }
-
 /*background: rgb(221, 220, 220)*/
 
-.body-CV hr {
+.main-CV hr {
     border: 1px solid #486153;
-    margin: 0;
+    margin: 15px 0px;
 }
-
+.main-CV p {
+    margin: 5px 0px 5px 0px;
+}
+.main-CV h2 {
+    margin: 15px 20px;
+}
+.main-CV h3 {
+    margin: 20px 5px 5px 5px;
+}
+.main-CV h4 {
+    margin: 25px 0px 0px 5px;
+}
+.main-CV ul {
+    margin: 10px 0px;
+}
 
 .wrapper-CV {
     display: flex;
@@ -32,13 +45,12 @@
     padding: 5px;
 }
 
-
 .wrapper-text-CV h3{
     font-size: 4ch;
 }
 
 .wrapper-text-CV p{
-    font-size: 2.3ch;
+    font-size: 2.0ch;
     width: 700px;
     line-height: 40px;
 }
