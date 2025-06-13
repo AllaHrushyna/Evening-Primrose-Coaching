@@ -14,3 +14,8 @@
 .main-detail p {
     margin: 15px 0px 5px 0px;
 }
+
+.main-detail hr {
+  border: 0.5px solid #638371;
+  margin: 15px 0px;
+}
