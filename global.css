@@ -84,21 +84,18 @@ h3 {
   z-index: 99;
 }
 /*overflow: hidden;
-width: fit-content;*/
+width: fit-content;
 
-#navbar {
-  font-size: 35px;
-  font-weight: bold;
-  transition: 0.4s;
-}
+font-size: 35px;
+font-weight: bold;*/
 
 #navbar-logo {
   display: flex;
   flex-direction: row;
+  width: 80%;
 }
 
 #navbar-logo h2 {
-  font-size: 3.3ch;
   float: left;
   color: rgb(250, 238, 68);
   text-align: center;
@@ -110,7 +107,8 @@ width: fit-content;*/
   line-height: 25px;
   text-shadow: 2px 2px 5px rgb(2, 95, 56), 7px 7px 10px rgb(26, 26, 26);
 }
-/*border-radius: 4px;*/
+/* font-size: 3.3ch;
+border-radius: 4px;*/
 
 #navbar img {
 	width: 100px;
@@ -124,6 +122,7 @@ width: fit-content;*/
   padding: 60px 10px;
   bottom: 15px;
   transition: 0.4s;
+  
   /*float: right;*/
 }
 
@@ -161,12 +160,16 @@ width: fit-content;*/
     transition: 0.4s;
 }
 
-/*
-@media screen and (max-width: 580px) {
+
+@media screen and (max-width: 1350px) {
   #navbar {
-    padding: 20px 10px !important;
+    padding: 20px 10px; /*!important*/
   }
-  #navbar a {
+  #navbar-logo h2 {
+    font-size: 3ch;
+    line-height: 50px;
+  }
+  #navbar-taal-right a {
     float: none;
     display: block;
     text-align: left;
@@ -175,7 +178,7 @@ width: fit-content;*/
     float: none;
   }
 }
-*/
+
 
 
 
