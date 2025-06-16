@@ -77,3 +77,9 @@
         width: 120px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #CVFR {
+    word-break: break-all;
+    }
+}

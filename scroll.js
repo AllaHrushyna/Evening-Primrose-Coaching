@@ -5,19 +5,13 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "20px 10px";
     document.getElementById("navbar-taal-right").style.padding = "30px 10px";
     document.getElementById("navbar-logo").style.fontSize = "70%";
-    document.getElementById("nl").style.fontSize = "15px";
-    document.getElementById("fr").style.fontSize = "15px";
-    document.getElementById("en").style.fontSize = "15px";
-    document.getElementById("nv").style.paddingTop = "190px";
+    document.getElementById("nv").style.paddingTop = "140px";
     
   } else {
     document.getElementById("navbar").style.padding = "50px 10px";
     document.getElementById("navbar-taal-right").style.padding = "60px 10px";
     document.getElementById("navbar-logo").style.fontSize = "100%";
-    document.getElementById("nl").style.fontSize = "25px";
-    document.getElementById("fr").style.fontSize = "25px";
-    document.getElementById("en").style.fontSize = "25px";
-    document.getElementById("nv").style.paddingTop = "270px";
+    document.getElementById("nv").style.paddingTop = "200px";
    
   }
 }
