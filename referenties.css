@@ -5,19 +5,19 @@
 /*REFERENTIES*/
 
 
-.main-referenties h2 {
-    font-size: 35px;
+.main-referenties h3 {
+    /*font-size: 35px;*/
     margin: 15px 20px 15px 20px;
-    text-shadow: none;
+   
 }
 
-.main-referenties h3 {
-    font-size: 25px;
+.main-referenties h4 {
+    /*font-size: 25px;*/
     margin: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .main-referenties p {
-    font-size: 20px;
+    /*font-size: 20px;*/
     margin: 5px;
 }

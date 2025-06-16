@@ -5,27 +5,26 @@
 /*CV*/
 
 .main-CV {
-    font-size: 18px;
-    /*padding: 20px;
+    /*font-size: 18px;
+    padding: 20px;
     border-style: groove;*/
 }
 /*background: rgb(221, 220, 220)*/
 
 .main-CV hr {
     border: 1px solid #486153;
-    margin: 15px 0px;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 .main-CV p {
-    margin: 5px 0px 5px 0px;
-}
-.main-CV h2 {
-    margin: 15px 20px;
+    margin: 5px 0px;
+    line-height: 25px;
 }
 .main-CV h3 {
-    margin: 20px 5px 5px 5px;
+    margin: 10px 5px 5px 5px;
 }
 .main-CV h4 {
-    margin: 25px 0px 0px 5px;
+    margin: 15px 0px 0px 5px;
 }
 .main-CV ul {
     margin: 10px 0px;
@@ -34,26 +33,47 @@
 .wrapper-CV {
     display: flex;
     flex-direction: row;
-    column-gap: 200px;
+    column-gap: 10%;
 }
 
 .wrapper-CV img {
-    width: 200px;
+    width: 16%;
     height: 100%;
     border: 1px solid #c4c3c3;
     border-radius: 10px;
     padding: 5px;
 }
 
+.wrapper-text-CV {
+    width: 700px;
+}
+
 .wrapper-text-CV h3{
-    font-size: 4ch;
+    margin: 20px;
+    margin-top: 0;
 }
 
 .wrapper-text-CV p{
-    font-size: 2.0ch;
-    line-height: 40px;
+    line-height: 35px;
+    margin: 15px 0px;
 }
 
-.wrapper-text-CV {
-    width: 700px;
+
+
+/*Responsive*/
+
+.wrapper-text-CV h3 {
+    font-size: clamp(var(--min), var(--val), var(--max));
+}
+
+.wrapper-text-CV h3{
+    --min: 1.7em;
+    --val: 2vw;
+    --max: 4em;
+}
+
+@media screen and (max-width: 1500px) {
+    .wrapper-CV img {
+        width: 120px;
+    }
 }

@@ -4,7 +4,7 @@
 /*AANBOD*/
 
 .main-aanbod {
-    font-size: 19px;
+    /*font-size: 19px;*/
 }
 
 .main-aanbod p {
@@ -24,7 +24,7 @@ td:nth-child(2) {
   /*background: #ccc;*/}
 
 .table {
-  font-size: 17px;
+  /*font-size: 17px;*/
 }
 
 table, th, td {
