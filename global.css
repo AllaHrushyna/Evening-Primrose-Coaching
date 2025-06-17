@@ -144,7 +144,7 @@ li {
 * {box-sizing: border-box;}
 
 #navbar {
-  background-color: #046b45;
+  background-color: #098b64;
   padding: 50px 10px;
   margin-left: -10px;
   transition: 0.4s;
@@ -169,7 +169,7 @@ font-weight: bold;*/
   float: left;
   white-space: nowrap;
  /*font-size: 3vw;*/
-  color: rgb(250, 238, 68);
+  color: rgb(250, 217, 68);
  /* text-align: center; */
   padding: 12px;
   padding-top: 20px;
@@ -333,8 +333,8 @@ height: 50px;
 }
 
 .menu a.active {
-  background-color: #046b45;
-  color: rgb(250, 239, 82);
+  background-color: #098b64;
+  color: rgb(252, 240, 77);
 }
 
 .menu .icon {
